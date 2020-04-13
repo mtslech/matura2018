@@ -9,12 +9,10 @@ using namespace std;
 
 int main()
 {
-    string words[1000];
-
     fstream file("sygnaly.txt");
     if(file)
     {
-        for (int i=0; i<1000; i++)
+        for (int i = 0; i < 1000; i++)
         {
             string line;
             file >> line;
